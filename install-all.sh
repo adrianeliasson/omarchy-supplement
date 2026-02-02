@@ -24,3 +24,6 @@ source ./install-kubectl.sh
 # Config files setup
 source ./install-stow.sh
 source ./install-dotfiles.sh
+
+# Reset shell to load new configs
+exec bash
