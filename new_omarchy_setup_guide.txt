@@ -1,0 +1,10 @@
+Booting omarchy from scratch
+
+1. Put USB stick with latest omarchy version ISO
+2. Boot from USB stick and follow installation instructions
+3. After completed installation I like to run Update > Omarchy and maybe Update > Firmware. Quick reboot.
+4. Optional: Install brave to not leak anything to google
+5. Log in to bitwarden for passwords
+6. Attach an SSH key for github&git activities
+7. Clone the Omarchy fresh install repository and press play ./run the install-full.sh (git@github.com:adrianeliasson/omarchy-supplement.git)
+8 profit??
