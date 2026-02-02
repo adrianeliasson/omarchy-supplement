@@ -1,12 +1,15 @@
 #!/bin/bash
 
-set -ex
+set -eou
 
 # Generate SSH key
 if [[ ! -f "${HOME}/.ssh/id_ed25519" ]]; then
   # TODO: Generate SSH key here
   echo "No default SSH key exists: ~/.ssh/id_ed25519"
+  exit 1
 fi
+
+
 
 # General applications
 source ./install-ghostty.sh
