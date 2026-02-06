@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eou
+set -ex
 
 # Generate SSH key
 if [[ ! -f "${HOME}/.ssh/id_ed25519" ]]; then
@@ -23,6 +23,9 @@ source ./install-nvm.sh
 
 # Platform Engineer tools
 source ./install-kubectl.sh
+
+# Omarchy (Hyprland) specific configs
+source ./install-omarchy-overrides.sh
 
 # Config files setup
 source ./install-stow.sh
