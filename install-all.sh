@@ -23,6 +23,7 @@ source ./install-nvm.sh
 
 # Platform Engineer tools
 source ./install-kubectl.sh
+source ./sre/install-minikube.sh
 
 # Omarchy (Hyprland) specific configs
 source ./install-omarchy-overrides.sh
